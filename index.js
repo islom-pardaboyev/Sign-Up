@@ -9,7 +9,7 @@ function validateInput() {
         elStatus.textContent = 'Please, complete the input';
         elStatus.className = 'text-[red] font-bold text-[14px]';
         elInput.style.border = '2px solid red';
-        elInput.className = 'incorrect border-2 border-[#64748b] py-[10px] px-[20px] text-[1.2rem] mt-[.5rem] mb-[1rem] rounded-md';
+        elInput.className = 'incorrect border-2 border-[#64748b] py-[10px] px-[20px] text-[1.2rem] mt-[.5rem] mb-[1rem] rounded-md bg-[#fecaca]';
     }
 }
 
