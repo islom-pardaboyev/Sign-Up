@@ -8,42 +8,47 @@
 </head>
 <style>
    .btn {
-    background: #f12711;  
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711); 
-    background: linear-gradient(to right, #f5af19, #f12711); 
+    background: #FDC830; 
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    background: linear-gradient(to right, rgb(255, 217, 0), red);
     color: white;
+    box-shadow: #FC6736 0px 10px 38px;
    }
+
+  .btn:hover{
+    box-shadow: #FC6736 0px 19px 38px;
+    transition: .3s linear;
+  }
 </style> 
 <body class="bg-charcoal-gray flex items-center justify-center h-[100vh]">
 
-  <div class="grid grid-cols-12 gap-6 p-[2rem] rounded-lg bg-white">
-    <div class="col-span-7">
-      <div>
+  <div class="flex gap-6 p-[2rem] rounded-lg bg-white">
+    <div>
+      <div class="mt-[15%]">
         <p class="font-bold text-[3rem] text-dark-slate-gray">Stay Updated!</p>
-        <p class="font-medium text-dark-slate-gray clas
-        text-[1rem]">Join 60,000+ product managers receiving monthly <br> updated on:</p>
+        <p class="font-medium text-dark-slate-gray mt-[1rem]">Join 60,000+ product managers receiving monthly <br> updated on:</p>
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col font-medium my-[1.5rem]">
         <div class="flex">
           <img class="mr-[1rem]" src="/assets/images/icon-list.svg" alt="">
           <p>Product discovery and building what matters</p>
         </div>
         <div class="flex my-[.5rem]">
           <img class="mr-[1rem]" src="/assets/images/icon-list.svg" alt="">
-          <p>Measuring to ensure uqdates are a success</p>
+          <p>Measuring to ensure uqdates are a uccess</p>
         </div>
         <div class="flex">
           <img class="mr-[1rem]" src="/assets/images/icon-list.svg" alt="">
-          <p>and much more!</p>
+          <p>And much more!</p>
         </div>
       </div>
       <form action="" class="flex flex-col">
-          <label for="">Email Adress</label>
-          <input type="text" class="border-2 border-[black] rounded-md" placeholder="email@example.com">
-          <button class="btn">Subscribe to monthly newsletter</button>
+          <label class="font-bold text-[14px]" for="">Email Adress</label>
+          <input type="text" class="border-2 border-[#64748b] py-[10px] px-[20px] text-[1.2rem] mt-[.5rem] mb-[1rem] rounded-md" placeholder="email@example.com">
+          <button class="btn font-medium text-[1.1rem] rounded-md py-[15px] px-[20px]">Subscribe to monthly newsletter</button>
       </form>
     </div>
-    <div class="col-span-5">
+    <div class="">
       <img src="/assets/images/illustration-sign-up-desktop.svg" alt="">
     </div>
   </div>
